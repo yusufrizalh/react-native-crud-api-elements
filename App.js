@@ -31,14 +31,14 @@ const rootStack = createStackNavigator(
       screen: PegawaiMain, 
       navigationOptions: {}, 
     }, 
-    // PegawaiRead: {
-    //   screen: PegawaiRead, 
-    //   navigationOptions: {}, 
-    // }, 
-    // PegawaiEdit: {
-    //   screen: PegawaiEdit, 
-    //   navigationOptions: {}, 
-    // }, 
+    PegawaiRead: {
+      screen: PegawaiRead, 
+      navigationOptions: {}, 
+    }, 
+    PegawaiEdit: {
+      screen: PegawaiEdit, 
+      navigationOptions: { title: 'Edit Pegawai PT. ABC' }, 
+    }, 
   }, 
   {
     initialRouteName: 'PegawaiMain', // sebagai root 
